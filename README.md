@@ -95,3 +95,10 @@ Field | Description | exemple
 **end-with** | find if the string end with the string | "query": "(idnumber **end-with** 1234567)"
 **not-start-with** | find if the string not start with the string | "query": "(idnumber **not-start-with** 1234567)"
 **not-end-with** | find if the string not end with the string | "query": "(idnumber **not-end-with** 1234567)"
+
+Combining the AND and OR Conditions
+
+**Note**
+
++ AND & OR conditions allow you to test multiple conditions.
++ Don't forget the order of operation parentheses!
