@@ -1,4 +1,4 @@
-<center><img src="http://www.powerlink.co.il/blog/wp-content/uploads/2015/07/PowerlinkLOGO1.png"></center>
+<h1 align="center"><img src="http://www.powerlink.co.il/blog/wp-content/uploads/2015/07/PowerlinkLOGO1.png"></h1>
 
 # Powerlink RestAPI
 
