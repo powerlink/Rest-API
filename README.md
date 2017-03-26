@@ -19,8 +19,8 @@ Please email support@powerlink.co.il if you find any bugs.
 + <a href="#query">Query</a>
 
 ## First steps
-1) Go to your Powerlink account
-2) Find you TOKENID 
+1) Go to your <a href="http://powerlink.co.il">Powerlink account</a>
+2) Find you <a href="https://secure.powerlink.co.il/workpad/admin/leadform.aspx">TOKENID<a/>
 
 
 ## Create
