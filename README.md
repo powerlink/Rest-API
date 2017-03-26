@@ -18,10 +18,10 @@ Please email support@powerlink.co.il if you find any bugs.
 + <a href="#delete">Delete</a>
 + <a href="#query">Query</a>
 
-## First steps
-1) Go to your <a href="http://powerlink.co.il">Powerlink account</a>
-2) Find you <a href="https://secure.powerlink.co.il/workpad/admin/leadform.aspx">TOKENID<a/>
 
+## Authentication
+To make a REST API call, you must include request headers including the Authorization header
+Find you <a href="https://secure.powerlink.co.il/workpad/admin/leadform.aspx">TOKENID<a/>
 
 ## Create
 
@@ -102,3 +102,5 @@ You can combining the AND and OR Conditions
 
 + AND & OR conditions allow you to test multiple conditions.
 + Don't forget the order of operation parentheses!
+
+ Go to your <a href="http://powerlink.co.il">Powerlink account</a> and let's start!
