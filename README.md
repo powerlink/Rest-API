@@ -42,7 +42,7 @@ Json exemple:
  "billingcity" : "תל אביב"
 }
 ```
-More exemple in <a href="\create\create.md">PHP</a> | Pyton | ASP.NET |
+More exemple in <a href="https://github.com/powerlink/PowerLinkCrm-API/blob/master/Create/create.md#php">PHP</a> | Pyton | ASP.NET |
 
 
 ## Update
