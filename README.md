@@ -9,6 +9,8 @@ More information about the Powerlink REST API can be found at
 
 http://www.powerlink.co.il/community-view-all-page.aspx?subject=32
 
+Please email support@powerlink.co.il if you find any bugs.
+
 ## index
 
 + Create
@@ -31,6 +33,7 @@ Method:
 ```
 POST
 ```
+
 
 ## Update
 
@@ -63,5 +66,5 @@ https://secure.powerlink.co.il/api/query
 Method: 
 ```
 POST
-
+```
 
