@@ -85,6 +85,20 @@ Method:
 ```
 POST
 ```
+
+Json exemple:
+```javascript
+{
+"objecttype": 1,
+"page_size": 50,
+"page_number": 1,
+"fields": "accountname,idnumber,telephone1",
+"query": "(idnumber  = 12345678) AND (telephone1 = 036339060)",
+"sort_by": "accountname",
+"sort_type": "desc"
+} 
+```
+
 Type of query:
 
 Field | Description | exemple
