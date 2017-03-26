@@ -33,6 +33,15 @@ Method:
 ```
 POST
 ```
+Json exemple:
+```
+{
+ "accountname" : "משה",
+ "telephone1" : "036339060",
+ "idnumber" : "1234",
+ "billingcity" : "תל אביב"
+}
+```
 
 
 ## Update
