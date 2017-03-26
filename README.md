@@ -14,9 +14,9 @@ Please email support@powerlink.co.il if you find any bugs.
 ## index
 
 + <a href="#create">Create</a>
-+ Update
-+ Delete
-+ Query
++ <a href="#update">Update</a>
++ <a href="#delete">Delete</a>
++ <a href="#query">Query</a>
 
 ## First steps
 1) Go to your Powerlink account
