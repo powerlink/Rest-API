@@ -54,6 +54,15 @@ Method:
 ```
 PUT
 ```
+Json exemple:
+```javascript
+{
+ "accountname" : "משה",
+ "telephone1" : "036339060",
+ "idnumber" : "56789",
+ "billingcity" : "ירושלים"
+}
+```
 
 ## Delete
 
@@ -76,4 +85,7 @@ Method:
 ```
 POST
 ```
-
+Type of query:
+Field | Description
+------|------------
+**start-with** | find if the string start with the 
