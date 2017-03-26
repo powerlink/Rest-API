@@ -89,4 +89,9 @@ Type of query:
 
 Field | Description | exemple
 ------|------------ | --------------------
-**start-with** | find if the string start with the string |  "query": "(idnumber **start-with** 1234567)",
+**=** | find result equal | "query": "(idnumber  **=** 1234)"
+**!=** | find result not equal | "query": "(idnumber  **!=** 1234)"
+**start-with** | find if the string start with the string |  "query": "(idnumber **start-with** 1234567)"
+**end-with** | find if the string end with the string | "query": "(idnumber **end-with** 1234567)"
+**not-start-with** | find if the string not start with the string | "query": "(idnumber **not-start-with** 1234567)"
+**not-end-with** | find if the string not end with the string | "query": "(idnumber **not-end-with** 1234567)"
