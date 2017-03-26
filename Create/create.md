@@ -55,7 +55,7 @@ req.add_header('tokenid', '73994acf-cd16-48bd-b8e1-17bc8f')
 response = urllib2.urlopen(req, json.dumps(data))
 ```
 
-## APS.net:
+## ASP.net:
 
 ```c#
 var httpWebRequest = (HttpWebRequest)WebRequest.Create("https://secure.powerlink.co.il/api/record/account");
