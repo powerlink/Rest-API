@@ -96,7 +96,7 @@ Field | Description | exemple
 **not-start-with** | find if the string not start with the string | "query": "(idnumber **not-start-with** 1234567)"
 **not-end-with** | find if the string not end with the string | "query": "(idnumber **not-end-with** 1234567)"
 
-Combining the AND and OR Conditions
+You can combining the AND and OR Conditions
 
 **Note**
 
