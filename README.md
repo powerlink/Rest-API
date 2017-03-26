@@ -102,12 +102,12 @@ Json exemple:
 Field | Description | exemple
 ------|------------ | --------------------
 objecttype | the number of object | Account=1,	Contact=2,Cases=5 (<a href="https://secure.powerlink.co.il/_common/viewrecordsystemsettings.aspx?oid=58">See more..</a>)
-page_size | |
-page_number | |
-fields | | 
-query | | 
-sort_by | | 
-sort_type | | 
+page_size | the number of result per page | Min:1 Max:500
+page_number | the page of result | start at: 1
+fields | which fields to show on result | for all field: *
+query | the query you want search | ((idnumber  = 1234) AND (idnumber  = 5678))
+sort_by | chose field to sort by | accountname/idnumber/telephone1
+sort_type | chose type to sort | desc/asc
 
 Type of query:
 
