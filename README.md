@@ -20,8 +20,8 @@ Please email support@powerlink.co.il if you find any bugs.
 
 
 ## Authentication
-To make a REST API call, you must include request headers including the Authorization header
-Find you <a href="https://secure.powerlink.co.il/workpad/admin/leadform.aspx">TOKENID<a/>
+To make a REST API call, you must include request headers including the Authorization header ==>
+Find your <a href="https://secure.powerlink.co.il/workpad/admin/leadform.aspx">TOKENID<a/>
 
 ## Create
 
