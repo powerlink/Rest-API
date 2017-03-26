@@ -22,12 +22,14 @@ http://www.powerlink.co.il/community-view-all-page.aspx?subject=32
 
 
 ## Create
-How to create new row in powerlink:
 
+URL: 
 ```
-URL: https://secure.powerlink.co.il/api/record/{ObjectID}
-Method: POST
-
+https://secure.powerlink.co.il/api/record/{ObjectID}
+```
+Method: 
+```
+POST
 ```
 
 
