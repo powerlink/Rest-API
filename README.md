@@ -86,6 +86,7 @@ Method:
 POST
 ```
 Type of query:
-Field | Description
-------|------------
-**start-with** | find if the string start with the 
+
+Field | Description | exemple
+------|------------ | --------------------
+**start-with** | find if the string start with the string |  "query": "(idnumber start-with 1234567)",
