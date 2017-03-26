@@ -16,11 +16,18 @@ http://www.powerlink.co.il/community-view-all-page.aspx?subject=32
 + search
 + query
 
+## First steps
+1) Go to your Powerlink account
+2) Find you TOKENID 
+
+
 ## Create
-How to create new account in powerlink
+How to create new row in powerlink:
 
 ```
-test code
+URL: https://secure.powerlink.co.il/api/record/{ObjectID}
+Method: POST
+
 ```
 
 
