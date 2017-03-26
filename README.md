@@ -34,7 +34,7 @@ Method:
 POST
 ```
 Json exemple:
-```json
+```javascript
 {
  "accountname" : "משה",
  "telephone1" : "036339060",
