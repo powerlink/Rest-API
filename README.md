@@ -99,9 +99,19 @@ Json exemple:
 } 
 ```
 
+Field | Description | exemple
+------|------------ | --------------------
+objecttype | the number of object | Account=1,	Contact=2,Cases=5 (<a href="https://secure.powerlink.co.il/_common/viewrecordsystemsettings.aspx?oid=58">See more..</a>)
+page_size | |
+page_number | |
+fields | | 
+query | | 
+sort_by | | 
+sort_type | | 
+
 Type of query:
 
-Field | Description | exemple
+Operator | Description | exemple
 ------|------------ | --------------------
 **=** | find result equal | "query": "(idnumber  **=** 1234)"
 **!=** | find result not equal | "query": "(idnumber  **!=** 1234)"
