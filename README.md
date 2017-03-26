@@ -89,4 +89,4 @@ Type of query:
 
 Field | Description | exemple
 ------|------------ | --------------------
-**start-with** | find if the string start with the string |  "query": "(idnumber start-with 1234567)",
+**start-with** | find if the string start with the string |  "query": "(idnumber **start-with** 1234567)",
