@@ -7,7 +7,8 @@
 + search
 + query
 
-## create
+## Create
+How to create new account in powerlink
 
 ```
 test code
