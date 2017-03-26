@@ -11,10 +11,10 @@ http://www.powerlink.co.il/community-view-all-page.aspx?subject=32
 
 ## index
 
-+ create
-+ update
-+ search
-+ query
++ Create
++ Update
++ Delete
++ Query
 
 ## First steps
 1) Go to your Powerlink account
@@ -31,5 +31,37 @@ Method:
 ```
 POST
 ```
+
+## Update
+
+URL: 
+```
+https://secure.powerlink.co.il/api/record/{ObjectID}/{id}
+```
+Method: 
+```
+PUT
+```
+
+## Delete
+
+URL: 
+```
+https://secure.powerlink.co.il/api/record/{ObjectID}/{id}
+```
+Method: 
+```
+DELETE
+```
+
+## Query
+
+URL: 
+```
+https://secure.powerlink.co.il/api/query
+```
+Method: 
+```
+POST
 
 
