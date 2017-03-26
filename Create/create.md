@@ -35,9 +35,9 @@ curl_setopt($ch, CURLOPT_HTTPHEADER, array(
 $result = curl_exec($ch);
 ```
 
-## PYTON:
+## python:
 
-```pyton
+```python
 import json
 import urllib2
 
