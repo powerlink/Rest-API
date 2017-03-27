@@ -77,6 +77,8 @@ Method:
 ```
 DELETE
 ```
+More exemple in <a href="https://github.com/powerlink/Rest-API/blob/master/Delete/delete-readme.md#php">PHP</a> | <a href="https://github.com/powerlink/Rest-API/blob/master/Delete/delete-readme.md#python">python</a> | <a href="https://github.com/powerlink/Rest-API/blob/master/Delete/delete-readme.md#aspnet">ASP.NET</a> |
+
 
 ## Query
 
@@ -101,6 +103,8 @@ Json exemple:
 "sort_type": "desc"
 } 
 ```
+More exemple in <a href="https://github.com/powerlink/Rest-API/blob/master/Query/query-readme.md#php">PHP</a> | <a href="https://github.com/powerlink/Rest-API/blob/master/Query/query-readme.md#python">python</a> | <a href="https://github.com/powerlink/Rest-API/blob/master/Query/query-readme.md#aspnet">ASP.NET</a> |
+
 
 Field | Description | exemple
 ------|------------ | --------------------
