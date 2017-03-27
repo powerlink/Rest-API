@@ -107,8 +107,8 @@ page_size | the number of result per page | Min:1 Max:500
 page_number | the page of result | start at: 1
 fields | which fields to show on result | for all field: *
 query | the query you want search | ((idnumber  = 1234) AND (idnumber  = 5678))
-sort_by | chose field to sort by | accountname/idnumber/telephone1
-sort_type | chose type to sort | desc/asc
+sort_by | Select field to sort by | accountname/idnumber/telephone1
+sort_type | Select type to sort | desc/asc
 
 Type of query:
 
@@ -116,6 +116,8 @@ Operator | Description | exemple
 ------|------------ | --------------------
 **=** | find result equal | "query": "(idnumber  **=** 1234)"
 **!=** | find result not equal | "query": "(idnumber  **!=** 1234)"
+**OR** | performs a logical-OR of its bool operands | "query": "((idnumber  = 1234) **OR** (idnumber  = 456789))"
+**AND** | performs a logical-AND of its bool | "query": "((idnumber  = 1234) **AND** (accountname  = 'משה'))"
 **start-with** | find if the string start with the string |  "query": "(idnumber **start-with** 1234567)"
 **end-with** | find if the string end with the string | "query": "(idnumber **end-with** 1234567)"
 **not-start-with** | find if the string not start with the string | "query": "(idnumber **not-start-with** 1234567)"
