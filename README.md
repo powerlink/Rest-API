@@ -123,7 +123,7 @@ Operator | Description | exemple
 **=** | find result equal | "query": "(idnumber  **=** 1234)"
 **!=** | find result not equal | "query": "(idnumber  **!=** 1234)"
 **>** | Greater than | "query": "(age1  **>** age2)"
-**<>** | Less than | "query": "(age1  **<>** age2)"
+**<** | Less than | "query": "(age1  **<** age2)"
 **<=** | Greater than or equal to | "query": "(age1  **<=** age2)"
 **>=** | Less than or equal to | "query": "(age1  **>=** age2)"
 **OR** | performs a logical-OR of its bool operands | "query": "((idnumber  = 1234) **OR** (idnumber  = 456789))"
