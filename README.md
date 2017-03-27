@@ -64,6 +64,8 @@ Json exemple:
  "billingcity" : "ירושלים"
 }
 ```
+More exemple in <a href="https://github.com/powerlink/Rest-API/blob/master/Update/update-readme.md#php">PHP</a> | <a href="https://github.com/powerlink/Rest-API/blob/master/Update/update-readme.md#python">python</a> | <a href="https://github.com/powerlink/Rest-API/blob/master/Update/update-readme.md#aspnet">ASP.NET</a> |
+
 
 ## Delete
 
