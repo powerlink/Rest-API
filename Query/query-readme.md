@@ -39,7 +39,7 @@ curl_setopt($curl, CURLOPT_URL, $url);
 curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
 curl_setopt($ch, CURLOPT_HTTPHEADER, array(                                                                          
     'Content-Type: application/json',
-    'tokenid: 0588209E-2715-419F-A913-732DABBDFE61',                                                                                
+    'tokenid: 0588209E-2715-419F-A913-732123456',                                                                                
     'Content-Length: ' . strlen($data_string))                                                                       
 ); 
 $result = curl_exec($curl);
@@ -55,7 +55,7 @@ import requests
 import json
 
 url = 'https://secure.powerlink.co.il/api/query'
-token_id = '73994acf-cd16-48bd-b8e1-17bc8f'
+token_id = '73994acf-cd16-48bd-b8e1-1123456'
 
 data = {
    “page_number": 1,
@@ -83,7 +83,7 @@ using System.IO;
 
 using (WebClient client = new WebClient())
             {
-                string tokenid = "0588209E-2715-419F-7777-732DABBDFE61"; 
+                string tokenid = "0588209E-2715-419F-7777-732123456"; 
                 client.Headers.Set("tokenId", tokenid);
                 client.Headers.Set("ContentType", "application/json");
                 client.Headers.Set("utc_time", "1");
