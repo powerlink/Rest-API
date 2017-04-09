@@ -69,7 +69,7 @@ using System.IO;
 
 using (WebClient client = new WebClient())
             {
-                string tokenid = "0588209E-2715-419F-7777-732DABBDFE61"; //זה של dev אז להחליף לפני שמעלים
+                string tokenid = "0588209E-2715-419F-1237-7312345"; 
                 client.Headers.Set("tokenId", tokenid);
                 client.Encoding = System.Text.Encoding.UTF8;
                 string json = new JavaScriptSerializer().Serialize(new
