@@ -27,7 +27,7 @@ Find your <a href="https://secure.powerlink.co.il/workpad/admin/leadform.aspx">T
 
 URL: 
 ```
-https://secure.powerlink.co.il/api/record/{ObjectID}
+https://secure.powerlink.co.il/api/record/{ObjectType}
 ```
 Method: 
 ```
@@ -49,7 +49,7 @@ More exemple in <a href="https://github.com/powerlink/Rest-API/blob/master/Creat
 
 URL: 
 ```
-https://secure.powerlink.co.il/api/record/{ObjectID}/{id}
+https://secure.powerlink.co.il/api/record/{ObjectType}/{id}
 ```
 Method: 
 ```
@@ -71,7 +71,7 @@ More exemple in <a href="https://github.com/powerlink/Rest-API/blob/master/Updat
 
 URL: 
 ```
-https://secure.powerlink.co.il/api/record/{ObjectID}/{id}
+https://secure.powerlink.co.il/api/record/{ObjectType}/{id}
 ```
 Method: 
 ```
