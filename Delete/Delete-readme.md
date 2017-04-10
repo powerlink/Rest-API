@@ -3,7 +3,7 @@
 To delete row in your powerlink account you only need call this URL:
 
 ```
-https://secure.powerlink.co.il/api/record/{objectID}/{ID}
+https://secure.powerlink.co.il/api/record/{ObjectType}/{ID}
 ```
 
 ## JSON: 
