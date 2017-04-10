@@ -14,6 +14,6 @@ data = {
     “sort_type”: ”desc”, #optional field
 }
 
-headers = {'Content-type': 'application/json', 'tokenId': token_id, 'utc_time' : str(1)}
+headers = {'Content-type': 'application/json', 'tokenId': token_id}
 response = requests.post(url + "/api/query", data=json.dumps(data), headers=headers)
 return json.loads(response.content)['data']
