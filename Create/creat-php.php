@@ -1,9 +1,9 @@
-$data = '{
-       "accountname" : "משה",
-      "telephone1" : "036339060",
-      "idnumber" : "1234",
-      "billingcity" : "תל אביב"
-        }';
+$data = array(
+      "accountname" => "משה",
+      "telephone1" => "036339060",
+      "idnumber" => "1234",
+      "billingcity" => "תל אביב"
+);
 $url='https://secure.powerlink.co.il/api/record/account'
 $data_string = json_encode($data);  
 $curl = curl_init();
