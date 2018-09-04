@@ -1,6 +1,4 @@
-
 <?php
-
 $data = array(
       "accountname" => "משה",
       "telephone1" => "036339060",
@@ -9,6 +7,7 @@ $data = array(
 );
 $url='https://api.powerlink.co.il/api/record/account';
 $data_string = json_encode($data);
+
 $curl = curl_init();
 curl_setopt($curl, CURLOPT_CUSTOMREQUEST, "POST");
 curl_setopt($curl, CURLOPT_POSTFIELDS, $data_string);
