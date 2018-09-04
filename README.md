@@ -21,13 +21,13 @@ Please email support@powerlink.co.il if you find any bugs.
 
 ## Authentication
 To make a REST API call, you must include request headers including the Authorization header ==>
-Find your <a href="https://secure.powerlink.co.il/workpad/admin/leadform.aspx">TOKENID<a/>
+Find your <a href="https://api.powerlink.co.il/workpad/admin/leadform.aspx">TOKENID<a/>
 
 ## Create
 
 URL: 
 ```
-https://secure.powerlink.co.il/api/record/{ObjectType}
+https://api.powerlink.co.il/api/record/{ObjectType}
 ```
 Method: 
 ```
@@ -49,7 +49,7 @@ More exemple in <a href="https://github.com/powerlink/Rest-API/blob/master/Creat
 
 URL: 
 ```
-https://secure.powerlink.co.il/api/record/{ObjectType}/{id}
+https://api.powerlink.co.il/api/record/{ObjectType}/{id}
 ```
 Method: 
 ```
@@ -71,7 +71,7 @@ More exemple in <a href="https://github.com/powerlink/Rest-API/blob/master/Updat
 
 URL: 
 ```
-https://secure.powerlink.co.il/api/record/{ObjectType}/{id}
+https://api.powerlink.co.il/api/record/{ObjectType}/{id}
 ```
 Method: 
 ```
@@ -84,7 +84,7 @@ More exemple in <a href="https://github.com/powerlink/Rest-API/blob/master/Delet
 
 URL: 
 ```
-https://secure.powerlink.co.il/api/query
+https://api.powerlink.co.il/api/query
 ```
 Method: 
 ```
@@ -108,7 +108,7 @@ More exemple in <a href="https://github.com/powerlink/Rest-API/blob/master/Query
 
 Field | Description | exemple
 ------|------------ | --------------------
-objecttype | the number of object | Account=1,	Contact=2,Cases=5 (<a href="https://secure.powerlink.co.il/_common/viewrecordsystemsettings.aspx?oid=58">See more..</a>)
+objecttype | the number of object | Account=1,	Contact=2,Cases=5 (<a href="https://api.powerlink.co.il/_common/viewrecordsystemsettings.aspx?oid=58">See more..</a>)
 page_size | the number of result per page | Min:1 Max:500
 page_number | the page of result | start at: 1
 fields | which fields to show on result | for all field: *
