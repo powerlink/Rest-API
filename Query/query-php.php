@@ -7,7 +7,7 @@ $data = '{
       "sort_by":"createdon",    //optional field
       "sort_type":"desc" //optional field
         }';
-$url='https://secure.powerlink.co.il/api/query';
+$url='https://api.powerlink.co.il/api/query';
 $data_string = json_encode($data);  
 $curl = curl_init();
 curl_setopt($curl, CURLOPT_CUSTOMREQUEST, "POST");
