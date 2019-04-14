@@ -1,12 +1,12 @@
-$data = '{
-      "page_number": 1,
-      "objecttype": 1,
-      "page_size":100,
-      "query":"(statuscode = 1)",    //optional field
-      "fields":"accountid",    //optional field
-      "sort_by":"createdon",    //optional field
-      "sort_type":"desc" //optional field
-        }';
+$data = array(
+      "page_number" => 1,
+      "objecttype" => 1,
+      "page_size" => 100,
+      "query" => "(statuscode = 1)",    //optional field
+      "fields" => "accountid",    //optional field
+      "sort_by" => "createdon",    //optional field
+      "sort_type" => "desc" //optional field
+);
 $url='https://api.powerlink.co.il/api/query';
 $data_string = json_encode($data);  
 $curl = curl_init();
