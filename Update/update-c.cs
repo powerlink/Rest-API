@@ -5,8 +5,8 @@ using System.IO;
 
 using (WebClient client = new WebClient())
             {
-                string tokenid = "0588209E-2715-419F-7777-732DABBDFE61"; //זה של dev אז להחליף לפני שמעלים
-                string objectid = "332DB2BF-3694-4F80-7777-99F87B5AAB56";
+                string tokenid = "xxxxxxx-xxxxx-xxxxx-xxxxx";
+                string objectid = "xxxxxxx-xxxxx-xxxxx-xxxxx";
                 client.Encoding = System.Text.Encoding.UTF8;
                 client.Headers.Set("tokenId", tokenid);
                 string json = new JavaScriptSerializer().Serialize(new
