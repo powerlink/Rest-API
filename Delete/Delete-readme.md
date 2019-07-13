@@ -23,7 +23,7 @@ $url =https://secure.powerlink.co.il/api/record/account/'.$objectid;
     curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "DELETE");
 	curl_setopt($ch, CURLOPT_HTTPHEADER, array(                                                                          
     'Content-Type: application/json',
-    'tokenid: 0588209E-2715-419F-A913-732DABBDFE61',                                                                                
+    'tokenid: xxxxx-xxxx-xxxxx-xxxxx',                                                                                
     'Content-Length: ' . strlen($data_string))                                                                       
 ); 
     $result = curl_exec($ch);
@@ -39,7 +39,7 @@ import requests
 import json
 
 url = 'https://secure.powerlink.co.il/api/record/account/'
-token_id = '73994acf-cd16-48bd-b8e1-17bc8f'
+token_id = 'xxxxx-xxxx-xxxxx-xxxxx'
 object_id = '12345f-cd16-48bd-b8'
 
 headers = {'Content-type': 'application/json', 'tokenId': token_id, 'utc_time' : str(1)}
@@ -58,8 +58,8 @@ using System.IO;
 
  using (WebClient client = new WebClient())
             {
-                string tokenid = "0588209E-2715-419F-7777-732DA123456"; 
-                string objectid = "332db2bf-3694-4f80-7777-99f87b123456";
+                string tokenid = "xxxxx-xxxx-xxxxx-xxxxx"; 
+                string objectid = "xxxxx-xxxx-xxxxx-xxxxx";
                 client.Encoding = System.Text.Encoding.UTF8;
                 client.Headers.Set("tokenId", tokenid);
                 string result = client.UploadString("https://secure.powerlink.co.il/api/record/account/" + objectid, "DELETE", "");
