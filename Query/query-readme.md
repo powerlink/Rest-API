@@ -55,7 +55,7 @@ import requests
 import json
 
 url = 'https://secure.powerlink.co.il/api/query'
-token_id = '73994acf-cd16-48bd-b8e1-1123456'
+token_id = 'xxxxxxx-xxxxx-xxxxx-xxxxx'
 
 data = {
    “page_number": 1,
