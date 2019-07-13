@@ -39,7 +39,7 @@ curl_setopt($curl, CURLOPT_URL, $url);
 curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
 curl_setopt($ch, CURLOPT_HTTPHEADER, array(                                                                          
     'Content-Type: application/json',
-    'tokenid: 0588209E-2715-419F-A913-732123456',                                                                                
+    'tokenid: xxxxxxx-xxxxx-xxxxx-xxxxx',                                                                                
     'Content-Length: ' . strlen($data_string))                                                                       
 ); 
 $result = curl_exec($curl);
@@ -83,7 +83,7 @@ using System.IO;
 
 using (WebClient client = new WebClient())
             {
-                string tokenid = "0588209E-2715-419F-7777-732123456"; 
+                string tokenid = "xxxxxxx-xxxxx-xxxxx-xxxxx"; 
                 client.Headers.Set("tokenId", tokenid);
                 client.Headers.Set("ContentType", "application/json");
                 client.Headers.Set("utc_time", "1");
