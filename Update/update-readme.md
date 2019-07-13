@@ -19,7 +19,7 @@
 $data = '{
        "accountname" : "מושון"
         }';
-$objectid = '332DB2BF-3694-4F80-B82F-99F87B5123456';		
+$objectid = 'xxxxx-xxxx-xxxxx-xxxxx';		
 $url='https://secure.powerlink.co.il/api/record/account/'.$objectid
 $data_string = json_encode($data);  
 $curl = curl_init();
@@ -30,7 +30,7 @@ curl_setopt($curl, CURLOPT_URL, $url);
 curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
 curl_setopt($ch, CURLOPT_HTTPHEADER, array(                                                                          
     'Content-Type: application/json',
-    'tokenid: 0588209E-2715-419F-A913-732DA123456',                                                                                
+    'tokenid: xxxxx-xxxx-xxxxx-xxxxx',                                                                                
     'Content-Length: ' . strlen($data_string),
 	'utc_time : "1"'
 	)                                                                       
@@ -48,7 +48,7 @@ import json
 
 object_id = '12345cf-cd16-48bd-b8e1'
 url = 'https://secure.powerlink.co.il/api/record/account/'
-token_id = '73994acf-cd16-48bd-b8e1-17bc8f'
+token_id = 'xxxxxxx-xxxxx-xxxxx-xxxxx'
 headers = {'Content-type': 'application/json', 'tokenId': token_id}
 response = requests.get(url + str(object_id), data=str(data), headers=headers)
 return json.loads(response.content)['data']
@@ -65,8 +65,8 @@ using System.IO;
 
 using (WebClient client = new WebClient())
             {
-                string tokenid = "0588209E-2715-419F-7777-732DAB12345"; 
-                string objectid = "332DB2BF-3694-4F80-7777-99F87B512344";
+                string tokenid = "xxxxxxx-xxxxx-xxxxx-xxxxx"; 
+                string objectid = "xxxxxxx-xxxxx-xxxxx-xxxxx";
                 client.Encoding = System.Text.Encoding.UTF8;
                 client.Headers.Set("tokenId", tokenid);
                 string json = new JavaScriptSerializer().Serialize(new
