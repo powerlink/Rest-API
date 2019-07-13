@@ -17,7 +17,7 @@ curl_setopt($curl, CURLOPT_URL, $url);
 curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
 curl_setopt($curl, CURLOPT_HTTPHEADER, array(                                                                          
     'Content-Type: application/json',
-    'tokenid: 0588209E-2715-419F-A913-732D1234',                                                                                
+    'tokenid: xxxxxx-xxxxx-xxxxx-xxxxx',                                                                                
     'Content-Length: ' . strlen($data_string))                                                                       
 ); 
 $result = curl_exec($curl);
