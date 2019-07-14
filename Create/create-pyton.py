@@ -9,7 +9,7 @@ data = {
 }
 
 url = 'https://secure.powerlink.co.il/api/record/account'
-token_id = '73994acf-cd16-48bd-b8e1-17bc8f'
+token_id = 'xxxxxxx-xxxxx-xxxxx-xxxxx'
 headers = {'Content-type': 'application/json', 'tokenId': token_id}
 response = requests.post(url, data=str(data), headers=headers)
 return json.loads(response.content)['data']['Record']
