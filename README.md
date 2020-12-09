@@ -1,4 +1,4 @@
-<h1 align="center"><img src="https://image.ibb.co/dhKbtv/logo_04size.png"></h1>
+<h1 align="center"><img src="https://www.powerlink.co.il/images/powerlink-logo.svg"></h1>
 
 # Powerlink RestAPI
 
