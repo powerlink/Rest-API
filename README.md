@@ -9,7 +9,7 @@ More information about the Powerlink REST API can be found at
 
 https://support.powerlink.co.il/support/kb/%D7%94%D7%AA%D7%9E%D7%9E%D7%A9%D7%A7%D7%95%D7%99%D7%95%D7%AA/Rest_API
 
-Please email support@powerlink.co.il if you find any bugs.
+Please email support@fireberry.com if you find any bugs.
 
 ## index
 
